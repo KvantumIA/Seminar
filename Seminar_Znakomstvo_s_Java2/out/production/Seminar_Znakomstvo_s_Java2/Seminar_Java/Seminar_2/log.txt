@@ -1,0 +1,2 @@
+сент. 24, 2023 3:46:08 PM Seminar_Java.Seminar_2.task_4 writeToFile
+INFO: Запись в файл выполнена успешно
