@@ -29,6 +29,7 @@ public class DataService {
                 lastId = ((Teacher) user).getTeacherId() + 1;
             if (user instanceof Student && itsStudent)
                 lastId = ((Student) user).getStudentId() + 1;
+
         }
         return lastId;
     }

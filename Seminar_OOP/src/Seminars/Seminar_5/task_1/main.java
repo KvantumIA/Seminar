@@ -13,7 +13,13 @@ public class main {
         controller1.createStudent("Внуков", "Внук", "Внукович");
 //        controller1.getAllStudent();
 
-        controller1.createTeacher("Учитель", "aaa","aaa");
+        Controller controller2 = new Controller();
+        controller2.createStudent("Александров2", "Александр", "Александрович");
+        controller2.createStudent("Борисов2", "Борис", "Борисович");
+        controller2.createStudent("Внуков2", "Внук", "Внукович");
+//        controller2.getAllStudent();
+
+        controller2.createTeacher("Учитель", "aaa","aaa");
 //        controller1.getAllTeacher();
 
         Controller controller4 = new Controller();
